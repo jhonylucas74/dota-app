@@ -1,0 +1,30 @@
+<ion-scroll>
+
+  <div class="profile-hero">
+      <img src="{{ image }}" alt="" />
+
+      <div class="dasafios">
+        {{ atual }} de {{ total }} desafios completos
+      </div>
+
+      <!--<div class="matchs">
+         <h3>Partidas</h3>
+         <h1>100</h1>
+      </div><div class="matchs">
+        <h3>Ganhas</h3>
+        <h1>30</h1>
+      </div>-->
+  </div>
+
+  <ul class="list chanllengers">
+      <li class="item" ng-class="item.class" ng-repeat="item in desafios track by $index">
+         <div class="description">
+           <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+         </div>
+      </li>
+
+
+
+  </ul>
+</ion-scroll>

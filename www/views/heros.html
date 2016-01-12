@@ -1,0 +1,16 @@
+<ion-scroll>
+
+
+<ul class="list heros">
+    <li class="item hero" ng-click="show(hero.hero_id)" ng-repeat="hero in heros">
+       <img src="{{ hero.icon }}" alt="" />
+       <div class="description">
+         <h3>{{ hero.name }}</h3>
+         <div class="minibar-back">
+           <span ng-style="{ 'width': ( ( (hero.atual || 0) * 100) / (hero.total || 13)  )+'%' }"></span>
+         </div>
+       </div>
+    </li>
+</ul>
+
+</ion-scroll>

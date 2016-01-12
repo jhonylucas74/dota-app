@@ -1,0 +1,146 @@
+/* Empty. Add your own CSS if you like */
+.mark {
+  border-bottom: 3px solid #f82b2b;
+}
+
+.pane {
+  background-color: #333333;
+}
+
+
+.has-header {
+  top: 91px;
+}
+
+.heros {
+
+}
+
+.hero,
+.chanllengers .item{
+  background-color: #333;
+  border: 1px solid rgba(255,255,255,0.3) !important;
+  position: relative !important;
+}
+
+.hero:active,
+.chanllengers .item:active {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.chanllengers .item:first-child {
+  border-top: none !important;
+}
+
+.hero img {
+  width: 15%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.hero  .description {
+  width: 84%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  position: relative;
+  height: 100%;
+
+}
+
+.hero .description h3 {
+  color: #fff;
+  font-size: 18px;
+  color: rgba(255,255,255,0.8);
+}
+
+.hero .minibar-back {
+  height: 10px;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 4px;
+  background-color: #232323;
+  overflow: hidden;
+}
+
+.hero .minibar-back span {
+  height:100%;
+  width: 50px;
+  display: block;
+  background-color: #e74c3c;
+}
+
+.profile-hero img{
+  width: 100%;
+}
+
+.chanllengers .item h3 {
+  color: rgba(255,255,255,0.9);
+}
+
+.chanllengers .item.mark h3{
+  text-decoration: line-through;
+}
+
+.chanllengers .item.mark {
+  background-color: rgba(255,255,255, 0.1);
+}
+
+.chanllengers .item p {
+  color: rgba(255,255,255, 0.6);
+}
+
+
+.matchs {
+   padding: 10px;
+   box-sizing: border-box;
+   width: 50%;
+   display: inline-block;
+   vertical-align: top;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.matchs:last-child {
+  border-left: none;
+}
+
+.matchs h3 {
+  font-size: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.matchs h1 {
+  margin-bottom: 0px;
+  font-size: 26px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.dasafios {
+  padding: 4px;
+  padding-left: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+form.setting {
+  padding: 15px;
+}
+
+form.setting label {
+  color: rgba(255,255,255,0.7);
+  padding-bottom: 10px;
+}
+
+form.setting input{
+  color: #fff !important;
+  z-index: 1000;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #333333;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
